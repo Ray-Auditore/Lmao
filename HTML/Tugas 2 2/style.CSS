@@ -1,0 +1,80 @@
+h1,h2{
+    text-align: center;
+    padding: 5px;
+    color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+}
+.judul{
+font-style: italic;
+}
+.isi{
+    text-align: center;
+}
+.Header{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-image: url(IMAGE/Wallpaper.jpg);
+    background-size: cover;
+}
+table,
+td,
+th{
+    border: 2px solid rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
+}
+.table {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+
+}
+td{
+    text-align: center;
+    color: rgba(240, 255, 255, 0.856);
+    
+}
+.tengah{
+    display: flex;
+    justify-content: center;
+}
+th{
+    color: rgb(0, 0, 0);
+    font-weight: 500px;
+    background-color: azure;
+}
+
+
+
+
+.item {
+    /* display: inline-block;  */
+    margin: 10px;
+    background-color: gainsboro;
+    border-radius: 10px;
+  }
+  .portrait {
+    width: 400px;
+    height: 400px;
+  }
+  h3,
+p {
+  text-align: center;
+  /* padding: 3px; */
+  color: steelblue;
+  font-family: "Assistant", sans-serif;
+}
+.items {
+    display: flex;
+    justify-content: center;
+  }
+  .Bebas{
+    justify-content: center;
+    display: flex;
+  }

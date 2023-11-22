@@ -1,0 +1,62 @@
+/*header style*/
+header {
+    text-align: center; 
+    padding: 20px;
+ }
+ /*navigation menu style*/
+ nav {
+    text-align: center;
+    word-spacing: 30px;
+    Padding: 10px;
+ }
+ /*creating the two-column layout*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    text-align: center;
+    margin-right: 5%;
+
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+    
+ }
+ img{
+    width: 720px;
+    height: 720px;
+    /* margin-left: 200px; */
+    display: flex;
+    justify-content: center;
+
+ }
+ 
+    
+ .gambar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+ nav{
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+    background-color:darksalmon;
+    font-family:Helvetica;
+ }
+ nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+ }
+ p{
+   text-align: justify;
+ }
+ footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
