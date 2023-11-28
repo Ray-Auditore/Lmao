@@ -13,6 +13,7 @@ h1{
     src: url(Font/caverson-lg2kq.otf);
     font-family: 'Caverson', sans-serif;
     font-size: 200px;
+    
                                                 
 }
 .isi{
@@ -70,8 +71,8 @@ th{
     
   }
   .portrait {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
   }
   h3,
@@ -102,3 +103,26 @@ p {
     margin-left: 135px;
     
   }
+  @media  (max-width: 576px) {
+    .table{
+        width: 20%;
+    }
+    .gambar-2{
+        width: 90%;
+    }
+    .gambar-1{
+        width: 90%;
+    }
+    .picture-1{
+        width: 400px;
+    }
+    .picture{
+        width: 400px;
+    }
+    .Bebas{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    }
+  
