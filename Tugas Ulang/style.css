@@ -1,0 +1,35 @@
+@media(min-width:375px){
+   .h1{
+    text-align: center;
+   }
+   .gambar{
+    width: 200px;
+    height: 200px;
+
+   }
+}
+@media(min-width:768px){
+    .gambar{
+        width: 500px;
+        height: 500px;
+    }
+}
+.tengah{
+    text-align: center;
+    margin: 10px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    
+}
+img{
+    border-radius: 50px;
+}
+h1{
+    font-family: monospace;
+}
+.apa{
+    text-align: center;
+    font-family: fantasy;
+    
+    
+}
