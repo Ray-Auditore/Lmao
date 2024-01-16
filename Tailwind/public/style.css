@@ -544,30 +544,95 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.text-ellipsis {
-  text-overflow: ellipsis;
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[00px\] {
+  width: 00px;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-kucing {
+  background-image: url("/public/image/kucing.jpeg");
+}
+
+.from-emerald-500 {
+  --tw-gradient-from: #10b981 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(16 185 129 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-10\% {
+  --tw-gradient-from-position: 10%;
+}
+
+.via-sky-600 {
+  --tw-gradient-to: rgb(2 132 199 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #0284c7 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-30\% {
+  --tw-gradient-via-position: 30%;
+}
+
+.to-red-600 {
+  --tw-gradient-to: #dc2626 var(--tw-gradient-to-position);
+}
+
+.to-90\% {
+  --tw-gradient-to-position: 90%;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .text-center {
   text-align: center;
 }
 
-.indent-1 {
-  text-indent: 0.25rem;
-}
-
 .indent-11 {
   text-indent: 2.75rem;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .font-lemon {
@@ -581,6 +646,10 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-Rayyan {
+  font-size: 150px;
 }
 
 .font-semibold {
@@ -600,18 +669,6 @@ video {
   text-decoration-line: underline;
 }
 
-.decoration-white {
-  text-decoration-color: #fff;
-}
-
-.decoration-black {
-  text-decoration-color: #000;
-}
-
 .decoration-blue-600 {
   text-decoration-color: #2563eb;
-}
-
-.underline-offset-8 {
-  text-underline-offset: 8px;
 }
